@@ -1,0 +1,86 @@
+header{
+  width: auto;
+  height: 60px;
+  background-color: #DCDBDB;
+}
+
+.mic {
+  width: 35vh;
+  height: 35vh;
+  border-radius: 100vh;
+  cursor: pointer;
+  
+  margin-bottom: 25px;
+}
+
+.voiceTxt {
+  color: darkslategray;
+  font-size: 26px;
+}
+
+.menu
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:0;
+  padding: 0;
+  
+}
+
+.menu li
+{
+  float: left;
+  list-style: none;
+  padding: 0 0 0 20px;
+  margin: 18px 0 0 0;
+  
+  
+}
+
+.menu li a
+{
+  font-size: 100%;
+  text-decoration: none;
+  color: rgb(0, 7, 7);
+  margin: 0 50px 0 0;
+    
+}
+
+.menu li a:hover
+{
+  border-radius: 10px;
+  background-color: red;
+}
+
+
+p{
+  margin:0;
+}
+
+body{
+  background-color: white;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+.inner{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow:1;
+  
+  margin: 10vh;
+}
+
+.responseTxt {
+  color: darkgray;
+  margin-top: 5px;
+  font-size: 18px;
+}
