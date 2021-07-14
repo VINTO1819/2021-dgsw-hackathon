@@ -1,44 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Way</title>
-    <link rel="stylesheet" href="index.css">
-  </head>
 
-  <body>
-    <header>
-        <div class="menu">
-            <ul>
-                <li><a href="index.html">Main</a></li>
-                <li><a href="features.html">Features</a></li>
-                <li><a href="History.html">History</a></li>
-                <li><a href="way.html">Way</a></li>
-            </ul>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Way</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <header>
+    <div class="menu">
+      <ul>
+        <li><a href="index.html">Main</a></li>
+        <li><a href="features.html">Features</a></li>
+        <li><a href="History.html">History</a></li>
+        <li><a href="way.html">Way</a></li>
+      </ul>
+    </div>
+  </header>
+  <div class="main_box">
+    <img class="mainImage" src="./../res/undraw_Schedule_re_2vro.svg" />
+    <p class="subTitle">당신을 위한 IoT 플랫폼, DGOT의</p>
+    <h1 class="title">Way</h1>
+
+    <div class="mainBottom">
+      <button class="contBtn" onclick="toPrimary1()">↓</button>
+      <p class="contTxt">press to view primary content</p>
+    </div>
+  </div>
+
+  <div id="primary1" class="primaryBase primary1">
+    <h1 class="priTitle">Way</h1>
+    <hr class="line">
+
+    <div class="dividCard">
+      <div class="cardItem">
+        <h2 class="cardTitle">Function</h2>
+        <br>
+        <ui>
+          <li>사물인터넷</li>
+          <li>방범용 카메라</li>
+          <li>데이터베이스 관리</li> 
+          <li>제어 기록</li>
+        </ui>
+        <br>
+        <hr class="line2">
+        <br>
+
+        <div>
+          <h3>사물인터넷</h3>
+          <p>음성 인식을 이용한 전등(LED)를 자유롭게 on/off가능</p>
+          <br><br>
         </div>
-    </header>
-    <div class="main_box">
-        <img class="mainImage" src="./../res/undraw_Schedule_re_2vro.svg"/>
-        <p class="subTitle">당신을 위한 IoT 플랫폼, DGOT의</p>
-        <h1 class="title">Way</h1>
-  
-        <div class="mainBottom">
-          <button class="contBtn" onclick="toPrimary1()">↓</button>
-          <p class="contTxt">press to view primary content</p>
+
+        <div>
+          <h3>방범용 카메라</h3>
+          <p>주거침입이 있을 시 카메라에 기록된 영상을 보고 다운로드가능</p>
+          <br><br>
         </div>
+        
+
+        <div>
+          <h3>데이터베이스 관리</h3>
+          <p>SQL문법으로 LED 및 서보모터 사용 기록 조회기능</p>
+          <br><br>
+        </div>
+
+        <div>
+          <h3>히스토리</h3>
+          <p>사용 기록을 전부 확인 가능</p>
+          <br><br>
+        </div>
+
+      </div>
+
+     
     </div>
 
-    <div id="primary1" class="primaryBase primary1">
-      <h1 class="priTitle">우리 DGOT은..</h1>
-      <hr class="line">
-      
-    </div>  
-      <script src="index.js">
 
-      </script>
+  </div>
+  <script src="index.js">
 
-      
-  </body>
+  </script>
+
+
+</body>
 
 </html>

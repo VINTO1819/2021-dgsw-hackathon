@@ -234,6 +234,10 @@ header
     margin-right: 300px;
 }
 
+.line2{
+    margin-right: 700px;
+}
+
 .funImgCon{
     display: flex;
 }
@@ -261,7 +265,7 @@ header
 
 .cardItem{
     border-radius: 4px;
-    width: 50vw;
+    width: 100%;
     margin-top: 5vh;
     height: 100%;
     background-color: white;
